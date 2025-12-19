@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>Recipe Garden 🌱</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌱 Recipe Garden</h1>
+    <p class="subtitle">
+      냉장고 속 재료로 피어나는 나만의 레시피 정원
+    </p>
+  </header>
+
+  <main>
+    <section class="input-section">
+      <input
+        id="ingredients"
+        placeholder="예: 계란, 감자, 치즈"
+      />
+      <button onclick="getRecipe()">레시피 추천 🌼</button>
+    </section>
+
+    <section id="recipe-card" class="hidden">
+      <h2>오늘의 AI 추천 레시피 🍳</h2>
+<div id="result" class="card">
+  <!-- AI 레시피 내용이 들어갈 곳 -->
+</div>
+<!-- 버튼을 AI 레시피 카드 바로 아래에 넣음 -->
+<button id="saveToGarden" style="display:none;" onclick="saveToGarden()">정원에 저장 🌿</button>
+
+
+<a href="garden.html" class="link">내 레시피 정원 보러가기 →</a>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>ⓒ 2025 Recipe Garden | AI Recipe Recommendation</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

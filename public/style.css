@@ -1,0 +1,99 @@
+body {
+  background: linear-gradient(135deg, #f6f8f3, #e8f5e9);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+  width: 420px;
+  margin: 70px auto;
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 24px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+  text-align: center;
+}
+
+h1 {
+  color: #43a047;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 22px;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 14px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 14px;
+  background: #4caf50;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background: #388e3c;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 18px;
+  background: #f1f8e9;
+  border-radius: 16px;
+  text-align: left;
+  white-space: pre-line;
+  font-size: 14px;
+}
+
+.save-btn {
+  background: #ffb300;
+}
+
+.save-btn:hover {
+  background: #ffa000;
+}
+
+.link {
+  display: block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #4caf50;
+  text-decoration: none;
+}
+#gardenList .card {
+  margin-top: 15px;
+  padding: 15px;
+  background: #e8f5e9;
+  border-radius: 12px;
+  position: relative;
+}
+
+#gardenList .card button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #f44336;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#gardenList .card button:hover {
+  background: #d32f2f;
+}
